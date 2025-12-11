@@ -1,22 +1,22 @@
 # 📜 Bellabeat Strategic Transition: Final Analysis Report 📜
 
-## How Can a Wellness Technology Company Play It Smart?
+##            How Can a Wellness Technology Company Play It Smart?
 
 ![Bellabeat Logo or Project Header](images/Bellabeat_logo.jpg)
 
 ## 👁️ Project Overview 👁️
 
-This project investigates the strategic shift required by Bellabeat, a women's wellness company, by analyzing public fitness tracker data. The core goal was to diagnose the primary cause of high user churn and propose a data-driven pivot from generic activity tracking to rewarding **consistency and recovery**. The analysis identified critical issues, including the **structural failure of the Calorie metric** (due to BMR dominance) and the **8–12 day user drop-off window**. The final recommendation centers on monetizing the untapped sleep/recovery deficit.
+This analysis was conducted as a **Junior Data Analyst** on the Marketing team at **Bellabeat**, a high-tech manufacturer of health products for women. 
+
+The project was mandated by the executive team to analyze third-party smart device data and uncover consumer habits. The primary goal was to transform these insights into a refined **marketing strategy for the Bellabeat App**, focusing on leveraging its comprehensive health data (activity, sleep, stress, etc.). The final recommendations aim to maximize the app’s value proposition and unlock new growth opportunities in the global smart device market.
 
 ---
-
 ## 🔗 Key Deliverables & Resources 🔗
 
 | Resource | Description | Link |
 | :--- | :--- | :--- |
-| **Interactive Report (Code)** | Published Kaggle Notebook containing the complete code, analysis narrative, and visualizations. | [View Published Kaggle Notebook] (**INSERT KAGGLE URL HERE**) |
-| **Executive Presentation** | Final Google Slides presentation summarizing strategic recommendations for leadership. | [View Executive Slides] (**INSERT GOOGLE SLIDES URL HERE**) |
-
+| **Interactive Report (Code)** | Published Kaggle Notebook containing the complete code, analysis narrative, and visualizations. | [View Published Kaggle Notebook](https://www.kaggle.com/code/marielaramoncorria/bellabeat-notebook) |
+| **Executive Presentation** | Final Google Slides presentation summarizing strategic recommendations for leadership. | [View Executive Slides](https://docs.google.com/presentation/d/e/2PACX-1vTn0YeQQGLqyjmwCyo1NOmeXuaeBvzwR1Fyl6TX0IUc4DZgm6V-4i018ocKpJUX2nBZy8NZYEgl0siX/pub?start=true&loop=false&delayms=3000&present) |
 ---
 
 ## 🛠️ Tools & Methodology 🛠️
