@@ -42,7 +42,7 @@ The project followed the **Google Data Analytics Life Cycle** , which ensures a 
 
 ### Critical Methodology Highlights
 
-* **Data Transformation & Temporal Consistency:** We performed a rigorous transformation process, including the **deletion of nearly 50% of duplicated records** and **zero-imputation** for missing hourly entries to ensure temporal consistency, which was critical for habit tracking.
+* **Data Transformation & Temporal Consistency:** We performed a rigorous transformation process, including the **filtering out of nearly 50% of hourly entries with invalid zero values** (where the device was likely not worn) and **zero-imputation** for truly missing hourly entries to ensure temporal consistency, which was critical for habit tracking.
 * **Addressing Data Limitations:** The analysis faced **multiple inherent limitations** due to the third-party nature of the dataset. To ensure findings were robust and market-relevant, we mitigated these limitations by incorporating **external market validation**, including **Industry Churn Reports** (e.g., Flurry Analytics) and **Digital Fitness Benchmarks** (analysis of UX/gamification metrics from competitors like Oura and Apple Fitness). This external data was used to validate the identified 8-12 Day Churn pattern.
 * **Aggregation Bias:** To create usable daily averages (e.g., `Avg_MinutesAsleep`), data consolidation was necessary. We acknowledge that this process introduced an **aggregation bias** (loss of individual variance), which led the strategy to focus on **group-level behavior intervention** (like Nudges and Campaigns) rather than extreme personalization.
 ---
@@ -71,16 +71,30 @@ In the context of marketing strategy, **growth opportunities** extend beyond sim
 | Element | Content | Stakeholder Action |
 | :--- | :--- | :--- |
 | **PHASE 1: Metric Correction & Positioning Pivot** | Abandon **Total Calories**. Replace it with Active Calories or Avg. METs (validated by a high 0.97 correlation to Heart Rate). Product Repositioning: Launch a Premium Readiness Score (or Recovery Score) based on sleep quality to capitalize on the 95% deficit. | Product Team, Marketing/Branding |
-| **PHASE 2: User Habit & Retention** | **Habit Campaign:** Implement a compulsory 30-Day Habit Campaign to push users past the 8-12 Day churn window. **Tactical Nudge:** Utilize 7:00 PM push notifications (the user's peak activity window) to prompt sleep logging, directly reinforcing habit formation. Launch a Post-Churn Survey for Strategic Validation and Risk Mitigation. | Growth/Retention Team, UX/Engineering |
+| **PHASE 2: User Habit & Retention** | **Habit Campaign:** Implement a compulsory 30-Day Habit Campaign to push users past the 8-12 Day churn window. **Tactical Nudge:** Utilize 7:00 PM push notifications (the user's peak activity window) to prompt sleep logging, directly reinforcing habit formation. Launch a Post-Churn Survey within the Bellabeat App to identify program interface barriers (UX/UI issues) or other causes of demotivation. | Growth/Retention Team, UX/Engineering |
 | **PHASE 2: Strategic Weekly Intervention** | Launch a Dynamic, Compensatory Nudge Cycle: Implement gamified incentives (e.g., access to premium content or reward plans) to incentivize usage on low-inertia days and to foster active compensation during peak workday sedentary hours. | Marketing/Product Team |
 | **PHASE 3: Differentiation** | Capitalize on Niche: Integrate advanced features focused on women's health, linking Recovery to **Menstrual Cycle Syncing**. This utilizes the core advantage of the Bellabeat brand to secure differentiation from competitors. | Product Team, R&D |
 
-## Authors
+## 🛑 Limitations & Future Studies 🛑
 
-* **[Your Name]** - **Data Analyst** - All phases of the project: Data Cleaning, Exploratory Data Analysis, Strategic Recommendation, and Final Report Generation.
+The analysis faced limitations inherent to the third-party dataset, which was **not specifically oriented toward women’s wellness**, challenging Bellabeat's core mission.
+
+* **Lack of Key Biometric Data:** The dataset critically lacked key health indicators relevant to women, such as the **menstrual cycle**, stress levels, or specific metrics tied to Bellabeat's user base.
+* **Lack of Demographic/Geographic Data:** The absence of regional or demographic data (age, income, location) meant the analysis could not tailor marketing recommendations to **Bellabeat’s specific target customer segments** (e.g., urban, high-income women) or regional markets.
+* **Recommendation for Future Studies:** Future analyses should incorporate proprietary data or a study design that specifically tracks the correlation between activity/sleep patterns and the menstrual cycle to provide truly personalized and actionable insights for Bellabeat's target audience.
+
+---
+
+## 🤝Contributing🤝
+
+* 🐛 **Issues (GitHub):** For bug reports, errors in code, or data processing concerns.
+
+* 💡 **Pull Requests (GitHub):** For substantive additions or corrections to the analysis narrative or code.
+
+* 📧 **Direct Contact:** For general comments, mentorship, or career networking.
     * **Email:** [Your Professional Email]
-    * **GitHub:** [Your GitHub Profile URL]
+---
 
-## License
+## ⚖️ License ⚖️
 
 This project is intended for portfolio demonstration and learning purposes. It is covered under the **MIT License**.
