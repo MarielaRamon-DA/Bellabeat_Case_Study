@@ -84,11 +84,11 @@ In the context of marketing strategy, **growth opportunities** extend beyond sim
 
 The analysis faced limitations inherent to the third-party dataset, which was **not specifically oriented toward women’s wellness**, challenging Bellabeat's core mission.
 
-* **Lack of Key Biometric Data:** The dataset critically lacked key health indicators relevant to women, such as the **menstrual cycle**, stress levels, or specific metrics tied to Bellabeat's user base.
+* **Lack of Key Biometric Data:** The dataset critically lacked key health indicators relevant to women, such as the **menstrual cycle**, stress levels, or specific metrics tied to the **Bellabeat App's user base**.
   
 * **Lack of Demographic/Geographic Data:** The absence of regional or demographic data (age, income, location) meant the analysis could not tailor marketing recommendations to **Bellabeat’s specific target customer segments** (e.g., urban, high-income women) or regional markets.
   
-* **Recommendation for Future Studies:** Future analyses should incorporate proprietary data or a study design that specifically tracks the correlation between activity/sleep patterns and the menstrual cycle to provide truly personalized and actionable insights for Bellabeat's target audience.
+* **Recommendation for Future Studies:** Future analyses should incorporate proprietary data or a study design that specifically tracks the correlation between activity/sleep patterns and key female health variables, including the **menstrual cycle, stress levels, and pregnancy**. These findings must be integrated into the **Bellabeat App** to provide truly personalized and actionable insights for its target audience.
 
 ---
 
