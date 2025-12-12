@@ -43,25 +43,17 @@ The project followed the **Google Data Analytics Life Cycle** , which ensures a 
 ### Critical Methodology Highlights
 
 * **Data Transformation & Temporal Consistency:** We performed a rigorous transformation process, including the **deletion of nearly 50% of duplicated records** and **zero-imputation** for missing hourly entries to ensure temporal consistency, which was critical for habit tracking.
-* **Addressing Data Limitations (n=35):** The limited internal sample size (n=35) was mitigated by incorporating external market validation. We used **Industry Churn Reports** (e.g., Flurry Analytics) and **Digital Fitness Benchmarks** (analysis of UX/gamification metrics from competitors like Oura and Apple Fitness) to ensure findings were market-relevant and to validate the identified 8-12 Day Churn pattern.
-* **Aggregation Bias:** To create usable daily averages (e.g., `Avg_MinutesAsleep`), data consolidation was necessary. We acknowledge that this process introduced an **aggregation bias** (loss of individual variance), which was factored into our strategic recommendations.
-
-### Critical Methodology Highlights
-
-* **Data Transformation & Temporal Consistency:** We performed a rigorous transformation process, including the **deletion of nearly 50% of duplicated records** and **zero-imputation** for missing hourly entries to ensure temporal consistency, which was critical for habit tracking.
-* **Addressing Data Limitations (n=35):** The limited internal sample size (n=35) was mitigated by incorporating external market validation. We used **Industry Churn Reports** (e.g., Flurry Analytics) and **Digital Fitness Benchmarks** (analysis of UX/gamification metrics from competitors like Oura and Apple Fitness) to ensure findings were market-relevant and to validate the identified 8-12 Day Churn pattern.
-* **Aggregation Bias:** To create usable daily averages (e.g., `Avg_MinutesAsleep`), data consolidation was necessary. We acknowledge that this process introduced an **aggregation bias** (loss of individual variance), which was factored into our strategic recommendations.
-
+* **Addressing Data Limitations:** The analysis faced **multiple inherent limitations** due to the third-party nature of the dataset. To ensure findings were robust and market-relevant, we mitigated these limitations by incorporating **external market validation**, including **Industry Churn Reports** (e.g., Flurry Analytics) and **Digital Fitness Benchmarks** (analysis of UX/gamification metrics from competitors like Oura and Apple Fitness). This external data was used to validate the identified 8-12 Day Churn pattern.
+* **Aggregation Bias:** To create usable daily averages (e.g., `Avg_MinutesAsleep`), data consolidation was necessary. We acknowledge that this process introduced an **aggregation bias** (loss of individual variance), which led the strategy to focus on **group-level behavior intervention** (like Nudges and Campaigns) rather than extreme personalization.
 ---
 
 ## 💡 Key Findings & Strategic Insights 💡
 
-The analysis yielded several non-obvious insights that drive the final strategic recommendations:
+The analysis yielded three non-obvious insights that collectively drive the final strategic recommendations:
 
-1.  **Critical Churn Window:** The most significant user abandonment occurs in the **8–12 day window** of initial use, pointing to a failure in early habit formation.
-2.  **Structural Metric Failure:** A key finding that differentiates this analysis is the discovery that the **Basal Metabolic Rate (BMR) dominates the Calorie metric**. This renders the "Total Calories" metric ineffective for motivating true behavioral change.
-3.  **Untapped Market Opportunity:** The **sleep/recovery deficit** was identified as the key performance indicator for driving high-intensity activity, representing the largest opportunity for Bellabeat's future product strategy.
-
+1.  **Habit Failure is the Core Problem:** Inconsistency is pervasive, resulting in a **71% drop-off** clustered in the hyper-sensitive **8-12 Day churn window**. This problem is compounded by the **Total Calories metric** being structurally ineffective for motivation due to **BMR dominance**, proving a fundamental flaw in habit formation.
+2.  **Recovery is the Untapped Market:** A vast **91% Sleep Deficit** exists among users. This lack of recovery is crucial because the analysis proves a **direct dependence:** the small segment of High\_Sleep users accounts for the overwhelming **majority (89%)** of high-intensity activity.
+3.  **Targeted Intervention is Necessary:** Weekly usage patterns show significant **inactivity gaps** (e.g., weak engagement on Tuesday) and **sedentary peaks** forced by work/commuting hours. This requires a strategy focusing on tactical intervention during optimal activity windows (Wednesday and Saturday) to reinforce habit formation.
 ---
 
 ## 🌟 Proposed Strategy 🌟
