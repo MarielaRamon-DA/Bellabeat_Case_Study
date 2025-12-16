@@ -99,7 +99,7 @@ The analysis faced limitations inherent to the third-party dataset, which was **
 * 💡 **Pull Requests (GitHub):** For substantive additions or corrections to the analysis narrative or code.
 
 * 📧 **Direct Contact:** For general comments, mentorship, or career networking.
-    * **Email:** [Your Professional Email]
+    * **Email:** [mariela.ramon.dataa@gmail.com]
 ---
 
 ## ⚖️ License ⚖️
