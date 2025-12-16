@@ -13,7 +13,7 @@ The project was mandated by the executive team to analyze third-party smart devi
 
 | Resource | Description | Link |
 | :--- | :--- | :--- |
-| **Interactive Report (Code)** | Published Kaggle Notebook containing the complete code, analysis narrative, and visualizations. | [View Published Kaggle Notebook](https://www.kaggle.com/code/marielaramoncorria/bellabeat-notebook) |
+| **Interactive Report (Code)** | Published Kaggle Notebook containing the complete code, analysis narrative, and visualizations. | [View Published Kaggle Notebook](https://kkb-production.jupyter-proxy.kaggle.net/k/286471873/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwidHlwIjoiSldUIn0..A6uuZDb6kBJw2Ye3BGgRUQ.Lc_sr7EaiSF96y47hfGZxUeq3zQzdzvliBSpWr9lOo6N9fNzwa5xiDzOmX6RglTxFz88eS0xsoHAT26tGXUqyQw1h7tOxFRi-Qaj72RN8L8TXOXGKTYDpMwKM7toCumorWWfXF5VXZKpgFqasDP27DOCuTqYpYu44RrN7AIAu3ic-evBzMF6027HbxMoKG0Wl0orbEluT3CRTzyPFlCkWvCWeKU4L4yaTmgJkwtdqVH6Uj1RUuTlOUsRxhYZcxqq.D3KECfMpG7rQfHVlxiAUyw/proxy) |
 | **Executive Presentation** | Final Google Slides presentation summarizing strategic recommendations for leadership. | [View Executive Slides](https://docs.google.com/presentation/d/e/2PACX-1vTn0YeQQGLqyjmwCyo1NOmeXuaeBvzwR1Fyl6TX0IUc4DZgm6V-4i018ocKpJUX2nBZy8NZYEgl0siX/pub?start=true&loop=false&delayms=3000&present) |
 ---
 
