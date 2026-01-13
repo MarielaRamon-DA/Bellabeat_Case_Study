@@ -1,4 +1,4 @@
-# 📜 Bellabeat Strategic Transition: Final Analysis Report 📜
+# 📜 Bellabeat Strategic Transition: Final Report 📜
 
 ## &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; How Can a Wellness Technology Company Play It Smart?
 ![Bellabeat Logo or Project Header](images/Bellabeat_logo.jpg)
